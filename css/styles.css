@@ -48,41 +48,45 @@ font-weight: 700;
 line-height: 1.17;
 letter-spacing: 0.54px;
 text-transform: uppercase;
+margin-right: 76px;
 }
 
 .container{
     width: 1158px;
     margin-left: auto;
     margin-right: auto;
+    padding: 0 15px
 }
 
 .logo-part{
 color: #2e2f42;
 }
-
+.header{
+border-bottom: 1px solid #E7E9FC;
+}
 .header-container{
 display: flex;
 justify-content: space-between;
 height: 72px;
 align-items: center;
-border-bottom: 1px solid #E7E9FC;
-
 }
 
 .page-navigation {
     display: flex;
     justify-content: space-between;
+    align-items: center
 
 }
 
 .menu-navigation{
 display: flex;
 margin-left: 76px;
-column-gap: 40px;
+gap: 40px;
 font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.32px;
+padding: 24px 0;
 }
 
 .menu-item:hover,
@@ -101,7 +105,7 @@ color: #434455;
     line-height: 1.5;
     letter-spacing: 0.02em;
     display: flex;
-    gap: 24px 40px;
+    gap: 40px;
     }
   
 .address-item{
@@ -282,6 +286,7 @@ font-size: 36px;
 
 .footer{
     background-color: #2E2F42;
+    padding: 100px 0 100px;
 }
 
 
@@ -293,6 +298,8 @@ font-size: 36px;
     line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .logo-part-down{
     color: #f4f4fd;
@@ -302,7 +309,7 @@ color:#F4F4FD;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.32px;
-    width: 264px;
-    margin-top: 17.5px;
+    max-width: 264px;
+    
 
 }

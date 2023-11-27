@@ -204,7 +204,9 @@ width: calc((100%-72px)/4);
     line-height: 1.2;
     letter-spacing: 0.4px;
     color: #2e2f42;
-}
+    margin-bottom: 8px;
+    }
+
 
 
 .points-description{

@@ -172,6 +172,7 @@ align-items: center;
     background-color: #404BBF;
 }
 /*second section*/
+ 
 .visually-hidden{
     position: absolute;
     width: 1px;
@@ -311,7 +312,7 @@ padding: 32px 0;
 }
 
 .portfolio-item{
-width:calc((100%-48px)/3);
+width:calc((100% - 48px) / 3);
 }
 
 .portilio-container{

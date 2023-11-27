@@ -186,9 +186,7 @@ align-items: center;
      overflow: hidden;
  }
 
-.section-title{
-    margin-bottom: 8px;
-}
+
 .fuctions-list{
     display: flex;
     gap: 24px;
